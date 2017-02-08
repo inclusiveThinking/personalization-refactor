@@ -9,23 +9,21 @@ see more at: https://github.com/ayelet-seeman/coga.personalisation/
 
 
 // download JSON skin in url, and personalise page based on the settings in it  
-
-
-
-function getPersonalisation(url) {
-    'use strict';
-    //load json skin (profile) and run it
-    makeCorsRequest(url);
-}
+ function getPersonalisation(url) {
+	  //load json skin (profile) and run it
+	  makeCorsRequest(url);
+	  	  
+  }
+  
 //personalise page based on the settings in the JSON object recieved
 function personalisePage(profile) {
-    'use strict';
-    //select all elements in document
-    var x = document.querySelectorAll('body *');
-    for (var i = 0; i < x.length; i++) {
+	//select all elements in document
+	var x = document.querySelectorAll( 'body *' );
+
+	for (var i = 0; i < x.length; i++) {
 		//run personalisation
 		personalise_element(x[i], profile);
-}
+	}
 	//hide button for loading JSON skin. Line will be removed in later versions.
 	document.getElementById("personalise_page").setAttribute("aria-hidden", "true");
 	
@@ -33,45 +31,37 @@ function personalisePage(profile) {
 
   //personalise element according to the settings in the JSON object recieved
 function personalise_element(element, profile) {
-    'use strict';
+
 	personalise_element_attribute(element, profile['@tagName'], "tagName");
 	personalise_element_attribute(element, profile['@role'], "role");
 	personalise_element_attribute(element, profile['@aria-function'], "aria-function");
-	personalise_element_importance(element, profile['@aria-importance'])
-	
-	
+	personalise_element_importance(element, profile['@aria-importance'])	
 }
 
 //personalise element by attributeName according to the settings in the JSON object recieved
 //works also with tag name
-function personalise_element_attribute(element, profileAttribute, AttributeName)
-{
+function personalise_element_attribute(element, profileAttribute, AttributeName) {
 	//code for a tag
 	if (AttributeName=="tagName") {var attribute =  element.tagName;}
 	//code for an attribute
 	else var attribute =  element.getAttribute(AttributeName);
 	//check they are defined
 	if (isDefined(profileAttribute))
-	if (isDefined(attribute))
-	{
+	if (isDefined(attribute)) {
 		var numFunc = profileAttribute.length;
 		
 		//get settings for that element
-		for (var j=0; j<numFunc; j++)
-		{
+		for (var j=0; j<numFunc; j++) {
 			if (isDefined(profileAttribute[j].offName))
-			if (attribute== profileAttribute[j].offName)
-			{
+			if (attribute== profileAttribute[j].offName) {
 
 			//check if element needs to be personalised differently
-			if (element.tagName=="INPUT") 
-			{
+			if (element.tagName=="INPUT") {
 			style_form_element (element, profileAttribute[j]);
 			}
 			
 			//change descendents
-			if (isDefined(profileAttribute[j].descendents))
-			{
+			if (isDefined(profileAttribute[j].descendents)) {
 				setCSS_des (element, profileAttribute[j].descendents);
 				
 			}
@@ -79,11 +69,9 @@ function personalise_element_attribute(element, profileAttribute, AttributeName)
 			
 			//check icon exists
 			
-			if (isDefined(profileAttribute[j].settings))
-			{ 
+			if (isDefined(profileAttribute[j].settings)) { 
 				
-			if (isDefined(profileAttribute[j].settings.Symbol.url))
-			{
+			if (isDefined(profileAttribute[j].settings.Symbol.url)) {
 			
 				//set width and height
 				var height = "30";
@@ -138,27 +126,22 @@ function personalise_element_attribute(element, profileAttribute, AttributeName)
 }
 
 //hide or display element by it's aria-importance according to the settings in the JSON object recieved
-function personalise_element_importance(element, imp_settings)
-{
+function personalise_element_importance(element, imp_settings) {
 	
 	
 	 arImp =  element.getAttribute("aria-importance");
 
-	 if (isDefined(arImp)&&isDefined(imp_settings[arImp].settings['@aria-hidden']))
-	 {
+	 if (isDefined(arImp)&&isDefined(imp_settings[arImp].settings['@aria-hidden'])) {
 	   //change aria-hidden attribute
 	   if (imp_settings[arImp].settings['@aria-hidden']=="false")
 	   element.setAttribute("aria-hidden", "false");
 	   else if (imp_settings[arImp].settings['@aria-hidden']=="true")
 	   element.setAttribute("aria-hidden", "true");
-	 }
-	 
-	 
+	 }	 
 }
 
 //display elements with an aria-importance attribute one level lower than currently displayed
-function moreOptions(profile)
-{
+function moreOptions(profile) {
 
 var temp = 0;
 	//change settings in local JSON skin (profile)
@@ -182,8 +165,7 @@ var temp = 0;
 }
 
 //hide elements with an aria-importance attribute one level higher than currently hidden
-function lessOptions(profile)
-{
+function lessOptions(profile) {
 	//change settings in local JSON skin (profile)		
 	if (profile['@aria-importance'].low.settings['@aria-hidden']=="false")
 	  profile['@aria-importance'].low.settings['@aria-hidden']="true";
@@ -266,8 +248,7 @@ function makeCorsRequest(url) {
 }
 
 //set elements' CSS according to the settings in the JSON object recieved
-function setCSS (element, settings)
-{
+function setCSS (element, settings) {
 	if (isDefined(settings))
 	  for (var i=0; i<settings.length; i++)
 			  {
@@ -287,8 +268,7 @@ function setCSS (element, settings)
 
 
 //set elements' descendents' CSS according to the settings in the JSON object recieved
-function setCSS_des (element, des_settings)
-{
+function setCSS_des (element, des_settings) {
 	if (isDefined(des_settings))
 		for (var i=0; i<des_settings.length; i++)
 		{		  
@@ -306,8 +286,7 @@ function setCSS_des (element, des_settings)
 }
 
 // personalise text and icon of form (input) element according to settings in the JSON object recieved
-function style_form_element(elem, profileFeature)
-{
+function style_form_element(elem, profileFeature) {
 	//add icon
 	//note: adding an icon changes slightly the color of the button
 
@@ -380,6 +359,7 @@ function personalise_page_tagName (profile)
 
 	
 }
+
 
 
 
