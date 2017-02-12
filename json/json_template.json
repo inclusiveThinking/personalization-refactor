@@ -68,5 +68,13 @@
                 "css": "visibility:hide;"
             }]
         }
+    }, {
+        "undo": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
     }]
 }
