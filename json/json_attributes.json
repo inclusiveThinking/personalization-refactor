@@ -268,5 +268,148 @@
                 "css": "visibility:hide;"
             }]
         }
-    }]
+    }],
+"@coga-destination": [{
+        "home": {
+            "settings": [{
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }, {
+        "contact us": {
+            "settings": [{
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }, {
+        "our phone": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:none;"
+            }]
+        }
+    }, {
+        "our email: {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:none;"
+            }]
+        }
+    }, {
+        "site map": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "help": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "about us": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "terms": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "tools": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "comment": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "language": {
+            "settings": [{
+                "language": "English",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "sign in": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "sign up": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "product": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "services": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "social": {
+            "settings": [{
+                "label": "value",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "post": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "contactus": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "help": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "chat help": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }],
 }
