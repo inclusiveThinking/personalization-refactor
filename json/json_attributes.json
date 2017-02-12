@@ -1,0 +1,272 @@
+{
+"@coga-simplification": [{
+        "simplest": {
+            "settings": [{
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }, {
+        "high": {
+            "settings": [{
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }, {
+        "med": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:none;"
+            }]
+        }
+    }, {
+        "low": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }],
+"@coga-action": [{
+        "compose": {
+            "settings": [{
+                "importance": "critical",
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }, {
+        "delete": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }, {
+        "next": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:none;"
+            }]
+        }
+    }, {
+        "previous": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "submit": {
+            "settings": [{
+                "importance": "critical",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "undo": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "cancel": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "buy": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "add label": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "move": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "view": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "save": {
+            "settings": [{
+                "importance": "critical",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "send": {
+            "settings": [{
+                "importance": "critical",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "received": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "sent": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "edit": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "reply": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "forward": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "my profile": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "upload": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "close": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "more": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "calendar": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "add entry": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "expand": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "unexpanded": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "open": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "new": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "print": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "settings": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }]
+}
