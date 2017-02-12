@@ -580,6 +580,15 @@
             }]
         }
     }],
+"@coga-explain": [{
+        "string": {
+            "settings": [{
+                "value": "",
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }],
 "@coga-feedback": [{
         "string": {
             "settings": [{
