@@ -291,7 +291,7 @@
             }]
         }
     }, {
-        "our email: {
+        "our email": {
             "settings": [{
                 "@aria-hidden": "true",
                 "css": "visibility:none;"
@@ -342,7 +342,7 @@
     }, {
         "language": {
             "settings": [{
-                "language": "English",
+                "language": "english",
                 "@aria-hidden": "true",
                 "css": "visibility:hide;"
             }]
@@ -405,11 +405,152 @@
             }]
         }
     }, {
-        "chat help": {
+        "post": {
             "settings": [{
                 "@aria-hidden": "true",
                 "css": "visibility:hide;"
             }]
         }
     }],
+"@coga-field": [{
+        "first name": {
+            "settings": [{
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }, {
+        "family name": {
+            "settings": [{
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }, {
+        "initial": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:none;"
+            }]
+        }
+    }, {
+        "phone": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:none;"
+            }]
+        }
+    }, {
+        "cell phone": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "address 1": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "city": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "state": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "country": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "post code": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "phone": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "credit card": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "expiry": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "birth date": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "day, month, year": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "expiry date": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "todays date": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "credit card code": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "date start": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "date end": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }]
 }
