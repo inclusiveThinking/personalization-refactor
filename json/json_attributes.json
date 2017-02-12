@@ -561,5 +561,128 @@
                 "css": "visibility:visible;"
             }]
         }
-    }
+    }],
+"@coga-numberfree": [{
+        "string": {
+            "settings": [{
+                "value": "",
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }],
+"@coga-literal": [{
+        "string": {
+            "settings": [{
+                "value": "",
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }],
+"@coga-feedback": [{
+        "string": {
+            "settings": [{
+                "value": "",
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }],
+"@coga-moreinfo": [{
+        "URI": {
+            "settings": [{
+                "value": "",
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }],
+"@coga-extrahelp": [{
+        "URI": {
+            "settings": [{
+                "value": "",
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }],
+"@coga-helptype": [{
+        "tooltips": {
+            "settings": [{
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }, {
+        "humanhelp": {
+            "settings": [{
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }, {
+        "morehelp": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:none;"
+            }]
+        }
+    }, {
+        "topicsearch": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:none;"
+            }]
+        }
+    }, {
+        "automated": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "faqs": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "helpform": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "simplified": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "glossary": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "dictionary": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "thesaurus": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }]
 }
