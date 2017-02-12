@@ -552,5 +552,14 @@
                 "css": "visibility:hide;"
             }]
         }
-    }]
+    }],
+"@coga-concept": [{
+        "URL": {
+            "settings": [{
+                "href": "",
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }
 }
