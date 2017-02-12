@@ -693,5 +693,106 @@
                 "css": "visibility:hide;"
             }]
         }
+    }],
+"@coga-alternative": [{
+        "_comment": "needs values",
+            "settings": [{
+                "value": "",
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+    }],
+"@coga-easylang": [{
+        "string": {
+            "settings": [{
+                "value": "",
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }],
+"@log": [{
+        "string": {
+            "settings": [{
+                "value": "",
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }],
+"@coga-messageimportance": [{
+        "string": {
+            "settings": [{
+                "value": "",
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }],
+"@coga-messagefrom": [{
+        "string": {
+            "settings": [{
+                "value": "",
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }],
+"@coga-messagecontext": [{
+        "string": {
+            "settings": [{
+                "value": "",
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }],
+"@coga-messagetime": [{
+        "string": {
+            "settings": [{
+                "value": "",
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }],
+"@coga-distraction": [{
+        "string": {
+            "settings": [{
+                "value": "",
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }],
+"@coga-trigger": [{
+        "_comment": "needs values",
+        "string": {
+            "settings": [{
+                "value": "",
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }],
+"@coga-keyparts": [{
+        "_comment": "needs values",
+        "string": {
+            "settings": [{
+                "value": "",
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }],
+"@coga-dates": [{
+        "_comment": "needs values",
+        "string": {
+            "settings": [{
+                "value": "",
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
     }]
 }
