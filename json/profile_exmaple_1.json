@@ -317,7 +317,7 @@
     },
 
     "@aria-importance": [{
-        "critical": {
+        "simplest": {
             "settings": [{
                 "@aria-hidden": "false",
                 "css": "visibility:visible;"
