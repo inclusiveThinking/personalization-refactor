@@ -316,8 +316,8 @@
         }]
     },
 
-    "@aria-importance": [{
-        "critical": {
+    "@coga-simplification": [{
+        "simplest": {
             "settings": [{
                 "@aria-hidden": "false",
                 "css": "visibility:visible;"
